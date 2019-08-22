@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<style>
+/*
+input[type=text],select,textarea{
+width:300;
+padding:10px;
+border: 1 px solid black;
+border-radius:4px;
+resize:vertical;
+font-style:italic;
+
+}*/
+.label{
+padding:12px;
+display: inline-block;
+}
+input[type=submit]{
+background-color: lightgrey;
+color:black;
+padding:12px 20px;
+border-radius:4px;
+cursor: pointer;
+width:100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.container{
+border-radius:5px;
+padding:25px;
+}
+.mn{
+color:black;
+font-size:20px;
+}
+.box{
+border:5px solid Gray;
+padding:15px;
+width:60%;
+}
+</style>
+<body background="backwaffle.jpg"><center>
+<div class="box">
+<b><i><div class="mn"><h1>FEEDBACK FORM</h1></div></i></b>
+<div class ="container">
+<form>
+<div class="label"><div class="mn"><b>First Name</b></div><br>
+<input type="text"id="fname" name="firstname" placeholder="Enter Name..."><br>
+<div class="mn"><b>Email </b></div><br>
+<input type="text"id="email" name="email" placeholder="Enter email address..."<br>
+
+<br>
+<div class="mn"><b>Message</b></div>
+<br><textarea id="subject" name="subject" placeholder="write something..." style="height:200px"></textarea><br>
+<input type="submit" value="send"></i>
+</form>
+</div></center>
+</body>
+</html>
